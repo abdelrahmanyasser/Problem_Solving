@@ -11,8 +11,8 @@
 #include "common.h"
 #include "bubble_sort.h"
 #include "merge_sort.h"
+#include "selection_sort.h"
 
-#define SIZE 10
 
 int main ()
 {
@@ -24,13 +24,15 @@ int main ()
     printArray(arr, SIZE);
 
     //bubbleSort(arr, SIZE, ASCENDING);
-    mergeSort(arr, 0, SIZE-1, ASCENDING);
+    //mergeSort(arr, 0, SIZE-1, ASCENDING);
+    selectionSort(arr, SIZE, ASCENDING);
 
     puts("Array After Ascending Sorting:");
     printArray(arr, SIZE);
 
     //bubbleSort(arr, SIZE, DESCENDING);
-    mergeSort(arr, 0, SIZE-1, DESCENDING);
+    //mergeSort(arr, 0, SIZE-1, DESCENDING);
+    selectionSort(arr, SIZE, DESCENDING);
 
     puts("Array After Descending Sorting:");
     printArray(arr, SIZE);

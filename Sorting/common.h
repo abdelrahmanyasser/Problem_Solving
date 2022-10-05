@@ -9,6 +9,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* Constants */
+#define SIZE 10
+
 /* Types */
 typedef enum
 {

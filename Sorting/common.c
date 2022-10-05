@@ -27,6 +27,6 @@ void fillArrayWithRandom(int* arr, int arr_size)
     int i;
     for ( i = 0; i < arr_size; i++ )
     {
-        arr[i] = rand() % 10;
+        arr[i] = rand() % SIZE;
     }
 }
