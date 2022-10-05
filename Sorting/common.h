@@ -9,6 +9,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* Types */
+typedef enum
+{
+    ASCENDING,
+    DESCENDING
+}SortingMode_t;
+
 /* Prototypes */
 void printArray(const int* arr, const int arr_size);
 void fillArrayWithRandom(int* arr, int arr_size);

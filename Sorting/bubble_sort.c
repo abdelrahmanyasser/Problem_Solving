@@ -4,7 +4,6 @@
  */
 
 #include "bubble_sort.h"
-#include "common.h"
 
 void bubbleSort( int* arr, int arr_size, SortingMode_t mode )
 {
