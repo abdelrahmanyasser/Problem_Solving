@@ -4,7 +4,7 @@
  */
 
 #include <stdio.h>
-#define SIZE 10
+#define SIZE 8
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
     for (row = 0; row < SIZE; row++)
     {
         /* Print the spaces first */
-        for (i = 0; i < SIZE - row; i++)
+        for (i = 0; i < SIZE - row - 1 ; i++)
         {
             printf(" ");
         }
